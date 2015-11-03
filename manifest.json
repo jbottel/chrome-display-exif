@@ -1,0 +1,21 @@
+{
+
+  "name": "Open in Jeffrey's EXIF Viewer",
+
+  "description": "Opens an image in Jeffrey Friedl's Excellent Image Metadata Viewer",
+
+  "version": "0.2",
+
+  "permissions": ["contextMenus", "http://*/*"],
+
+  "background": {
+
+    "scripts": ["contextMenu.js"]
+
+  },
+
+  "icons": { "16": "icon.png" },
+
+  "manifest_version": 2
+
+}
